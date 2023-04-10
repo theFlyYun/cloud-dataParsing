@@ -1,0 +1,8 @@
+
+package payload;
+// option optimize_for = LITE_RUNTIME;
+message Message{
+    required string temperature = 1; //温度
+    required string humidity = 2; //湿度
+}
+ 

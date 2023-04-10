@@ -1,0 +1,165 @@
+{
+    "nested":{
+        "soil":{
+            "nested":{ 
+                "SoilMessage":{
+                    "fields":{
+                        "data_format_version": {
+                            "type": "uint32",
+                            "id": 1
+                        },
+                        "hardware_version": {
+                            "type": "uint32",
+                            "id": 2
+                        },
+                        "software_version": {
+                            "type": "uint32",
+                            "id": 3
+                        },
+                        "reserved_byte": {
+                            "type": "uint32",
+                            "id": 4
+                        },
+                        "battery": {
+                            "type": "uint32",
+                            "id": 5,
+                            "rule":"required"
+                        },
+                        "error_code_1": {
+                            "type": "uint32",
+                            "id": 6
+                        },
+                        "water_1": {
+                            "type": "uint32",
+                            "id": 7
+                        },
+                        "temp_1": {
+                            "type": "sint32",
+                            "id": 8
+                        },
+                        "N_1": {
+                            "type": "uint32",
+                            "id": 9
+                        },
+                        "P_1": {
+                            "type": "uint32",
+                            "id": 10
+                        },
+                        "K_1": {
+                            "type": "uint32",
+                            "id": 11
+                        },
+                        "error_code_2": {
+                            "type": "uint32",
+                            "id": 12
+                        },
+                        "water_2": {
+                            "type": "uint32",
+                            "id": 13
+                        },
+                        "temp_2": {
+                            "type": "sint32",
+                            "id": 14
+                        },
+                        "N_2": {
+                            "type": "uint32",
+                            "id": 15
+                        },
+                        "P_2": {
+                            "type": "uint32",
+                            "id": 16
+                        },
+                        "K_2": {
+                            "type": "uint32",
+                            "id": 17
+                        },
+                        "error_code_3": {
+                            "type": "uint32",
+                            "id": 18
+                        },
+                        "water_3": {
+                            "type": "uint32",
+                            "id": 19
+                        },
+                        "temp_3": {
+                            "type": "sint32",
+                            "id": 20
+                        },
+                        "N_3": {
+                            "type": "uint32",
+                            "id": 21
+                        },
+                        "P_3": {
+                            "type": "uint32",
+                            "id": 22
+                        },
+                        "K_3": {
+                            "type": "uint32",
+                            "id": 23
+                        },
+                        "error_code_4": {
+                            "type": "uint32",
+                            "id": 24
+                        },
+                        "water_4": {
+                            "type": "uint32",
+                            "id": 25
+                        },
+                        "temp_4": {
+                            "type": "sint32",
+                            "id": 26
+                        },
+                        "N_4": {
+                            "type": "uint32",
+                            "id": 27
+                        },
+                        "P_4": {
+                            "type": "uint32",
+                            "id": 28
+                        },
+                        "K_4": {
+                            "type": "uint32",
+                            "id": 29
+                        },
+                        "error_code_5": {
+                            "type": "uint32",
+                            "id": 30
+                        },
+                        "water_5": {
+                            "type": "uint32",
+                            "id": 31
+                        },
+                        "temp_5": {
+                            "type": "sint32",
+                            "id": 32
+                        },
+                        "N_5": {
+                            "type": "uint32",
+                            "id": 33
+                        },
+                        "P_5": {
+                            "type": "uint32",
+                            "id": 34
+                        },
+                        "K_5": {
+                            "type": "uint32",
+                            "id": 35
+                        },
+                        "error_code_PH": {
+                            "type": "uint32",
+                            "id": 36
+                        },
+                        "PH": {
+                            "type": "uint32",
+                            "id": 37
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
+ 
+
+     
+ 

@@ -1,0 +1,35 @@
+{
+    "water_1":{
+        "divisor":10
+    },
+    "temp_1":{
+        "divisor":10
+    },
+    "water_2":{
+        "divisor":10
+    },
+    "temp_2":{
+        "divisor":10
+    },
+    "water_3":{
+        "divisor":10
+    },
+    "temp_3":{
+        "divisor":10
+    },
+    "water_4":{
+        "divisor":10
+    },
+    "temp_4":{
+        "divisor":10
+    },
+    "water_5":{
+        "divisor":10
+    },
+    "temp_5":{
+        "divisor":10
+    },
+    "PH":{
+        "divisor":10
+    } 
+}

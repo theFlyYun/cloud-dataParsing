@@ -1,0 +1,60 @@
+syntax = "proto2";
+package soil;
+message SoilMessage {
+
+    optional uint32 data_format_version = 1;
+    optional uint32 hardware_version = 2;
+    optional uint32 software_version = 3;
+    optional uint32 reserved_byte = 4;
+
+    required uint32 battery = 5;
+
+    optional uint32 error_code_1 = 6;
+    required uint32 water_1 = 7;
+    required int32 temp_1 = 8;
+    required uint32 N_1 = 9;
+    required uint32 P_1 = 10;
+    required uint32 K_1 = 11;
+
+    optional uint32 error_code_2 = 12;
+    required uint32 water_2 = 13;
+    required int32 temp_2 = 14;
+    required uint32 N_2 = 15;
+    required uint32 P_2 = 16;
+    required uint32 K_2 = 17;
+
+    optional uint32 error_code_3 = 18;
+    required uint32 water_3 = 19;
+    required int32 temp_3 = 20;
+    required uint32 N_3 = 21;
+    required uint32 P_3 = 22;
+    required uint32 K_3 = 23;
+
+    optional uint32 error_code_4 = 24;
+    required uint32 water_4 = 25;
+    required int32 temp_4 = 26;
+    required uint32 N_4 = 27;
+    required uint32 P_4 = 28;
+    required uint32 K_4 = 29;
+
+    optional uint32 error_code_5 = 30;
+    required uint32 water_5 = 31;
+    required int32 temp_5 = 32;
+    required uint32 N_5 = 33;
+    required uint32 P_5 = 34;
+    required uint32 K_5 = 35;
+
+    optional uint32 error_code_PH = 36;
+    required uint32 PH = 37;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package sensor;
+message SimpleMessage {
+    // optional string temp_ = 1 [default = "temp:"];    
+    required float temp = 2;
+    // optional string battery_ = 3 [default = "battery:"];
+    required uint32 battery = 4;
+}
