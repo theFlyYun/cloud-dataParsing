@@ -1,0 +1,59 @@
+{
+  "mqtt-out": {
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "object",
+    "properties": {
+      "op": { "$ref": "common#/definitions/op" },
+      "cid": { "$ref": "common#/definitions/cid" },
+      "mid": { "$ref": "common#/definitions/mid" },
+      "did": { "$ref": "common#/definitions/did" },
+      "topic": { "$ref": "common#/definitions/topic" },
+      "payload": { "$ref": "common#/definitions/payload" }
+    },
+    "required": ["op", "cid", "mid", "did", "topic", "payload"],
+    "additionalProperties": false
+  },
+  "mqtt-sub-${cid}-${mid}": {
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "object",
+    "properties": {
+      "op": { "$ref": "common#/definitions/op" },
+      "cid": { "$ref": "common#/definitions/cid" },
+      "mid": { "$ref": "common#/definitions/mid" },
+      "did": { "$ref": "common#/definitions/did" },
+      "topic": { "$ref": "common#/definitions/topic" },
+      "payload": { "$ref": "common#/definitions/payload" }
+    },
+    "required": ["op", "cid", "mid", "did", "topic", "payload"],
+    "additionalProperties": false
+  },
+
+  "http-out": {
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "object",
+    "properties": {
+      "reqMsgId": { "$ref": "common#/definitions/id" },
+      "op": { "$ref": "common#/definitions/op" },
+      "cid": { "$ref": "common#/definitions/cid" },
+      "httpid": { "$ref": "common#/definitions/httpid" },
+      "topic": { "$ref": "common#/definitions/topic" },
+      "payload": { "$ref": "common#/definitions/payload" }
+    },
+    "required": ["reqMsgId", "op", "cid", "httpid", "topic", "payload"],
+    "additionalProperties": false
+  },
+  "http-sub-${cid}-${httpid}": {
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "object",
+    "properties": {
+      "reqMsgId": { "$ref": "common#/definitions/id" },
+      "op": { "$ref": "common#/definitions/op" },
+      "cid": { "$ref": "common#/definitions/cid" },
+      "httpid": { "$ref": "common#/definitions/httpid" },
+      "topic": { "$ref": "common#/definitions/topic" },
+      "payload": { "$ref": "common#/definitions/payload" }
+    },
+    "required": ["reqMsgId", "op", "cid", "httpid", "topic", "payload"],
+    "additionalProperties": false
+  }
+}

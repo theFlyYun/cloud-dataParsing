@@ -1,0 +1,13 @@
+{
+  "ERROR": {
+    "400": "Invalid JSON; Missing required node: state; State node must be an object; Desired node must be an object; Reported node must be an object; Invalid version; Invalid clientToken; JSON contains too many levels of nesting; maximum is 6; State contains an invalid node",
+    "401": "Unauthorized",
+    "403": "Forbidden",
+    "404": "Thing not found",
+    "409": "Version conflict",
+    "413": "The payload exceeds the maximum size allowed",
+    "415": "Unsupported documented encoding; supported encoding is UTF-8",
+    "429": "The Thing Shadow service will generate this error message when there are more than 10 in-flight requests.",
+    "500": "Internal service failure"
+  }
+}

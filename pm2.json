@@ -1,0 +1,24 @@
+{
+  "apps": [{
+    "name": "cloud-device-shadow",
+    "script": "./bin/device-shadow",
+    "cwd": process.env.CLOUD_HOME_DIR,
+    "exec_mode": "fork",
+    "instances": 1,
+    "autorestart": true,
+    "min_uptime": "30s",
+    "max_restarts":15,
+    "node_args": "--max-old-space-size=65500",
+    "out_file": "/tmp/cloud-device-shadow.log",
+    "error_file": "/tmp/cloud-device-shadow.log",
+    "combine_logs": true,
+    "env": {
+      "CLOUD_HOME_DIR": process.env.PWD,
+      "NODE_ENV": "development"
+    },
+    "env_production": {
+      "CLOUD_HOME_DIR": process.env.PWD,
+      "NODE_ENV": "production"
+    }
+  }]
+}
