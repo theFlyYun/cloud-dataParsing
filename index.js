@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/deviceShadow');
+module.exports = require('./lib/dataParsing');
