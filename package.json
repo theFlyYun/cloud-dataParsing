@@ -10,7 +10,7 @@
     "test": "mocha test/lib; exit 0",
     "test-cov": "istanbul cover _mocha test/lib -- -R spec; exit 0",
     "lint": "files=$(git diff --cached --name-only --diff-filter=ACM | grep '\\.js$'); jshint $files && jscs $files",
-    "parse":"node ./bin/dataParsing"
+    "parse": "node ./bin/dataParsing"
   },
   "engines": {
     "node": "4.6.0"
@@ -39,5 +39,20 @@
   "license": "ISC",
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "bin": {
+    "device-shadow": "config.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theFlyYun/cloud-dataParsing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theFlyYun/cloud-dataParsing/issues"
+  },
+  "homepage": "https://github.com/theFlyYun/cloud-dataParsing#readme"
 }
