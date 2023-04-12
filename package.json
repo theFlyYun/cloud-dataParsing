@@ -16,12 +16,12 @@
     "node": "4.6.0"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
+    "bluebird": "^3.7.2",
     "cloud-lib": "git+ssh://git@211.68.70.104/cloud-lib#develop",
     "ioredis": "^2.5.0",
     "kafka-node": "^2.3.0",
-    "lodash": "^4.17.4",
-    "moment": "^2.20.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "uuid": "^3.1.0",
     "winston": "^2.4.0"
   },
