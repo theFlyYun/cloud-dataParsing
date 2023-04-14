@@ -14,14 +14,14 @@ module.exports = {
   database: {
     db: 'redis',
     cluster: false,
-    options: [{ 'host': '172.31.165.72', 'port': '6379' }],
+    options: [{ 'host': 'localhost', 'port': '6379' }],
   },
   logger: {
     level: 'debug',
   },
   msgQueue: {
     producer: {
-      host: '172.31.165.72:2181',
+      host: 'localhost:2181',
       // clientId: `device-shadow-${cloudid}`,
       clientId: `data-parsing-${cloudid}`,
       options: {
@@ -36,7 +36,7 @@ module.exports = {
         `http-pub-${cloudid}`,
       ],
       options: {
-        host: '172.31.165.72:2181',
+        host: 'localhost:2181',
         // groupId: `device-shadow-${cloudid}`,
         groupId: `data-parsing-${cloudid}`,
         sessionTimeout: 15000,
@@ -48,11 +48,11 @@ module.exports = {
     }
   },
   serviceRegistry: {
-    connectionString: '172.31.165.72:2181',
+    connectionString: 'localhost:2181',
   },
 
   serviceRegistryKey: {
     serviceKey: `${cloudid}:cloudDeviceShadow:-1`,
-    providerKey: `${shadowid}:172.31.165.71:-1`,
+    providerKey: `${shadowid}:localhost:-1`,
   },
 };
