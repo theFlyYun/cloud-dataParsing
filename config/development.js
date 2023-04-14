@@ -1,3 +1,10 @@
+/*
+ * @Author: Long Yunfei
+ * @Date: 2023-04-10 23:10:29
+ * @LastEditTime: 2023-04-13 21:30:37
+ * Copyright: 2023 BJTU. All Rights Reserved.
+ * @Descripttion: 
+ */
 var cloudid = '1';
 var shadowid = '1';
 
@@ -15,7 +22,8 @@ module.exports = {
   msgQueue: {
     producer: {
       host: '172.31.165.72:2181',
-      clientId: `device-shadow-${cloudid}`,
+      // clientId: `device-shadow-${cloudid}`,
+      clientId: `data-parsing-${cloudid}`,
       options: {
         requireAcks: 1,
         ackTimeoutMs: 100,
@@ -29,7 +37,8 @@ module.exports = {
       ],
       options: {
         host: '172.31.165.72:2181',
-        groupId: `device-shadow-${cloudid}`,
+        // groupId: `device-shadow-${cloudid}`,
+        groupId: `data-parsing-${cloudid}`,
         sessionTimeout: 15000,
         protocol: ['roundrobin'],
         fromOffset: 'latest',
