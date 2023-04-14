@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2",
+    "cloud-lib": "git+ssh://git@211.68.70.104/cloud-lib#develop",
     "ioredis": "^2.5.0",
     "kafka-node": "^2.3.0",
     "lodash": "^4.17.21",
