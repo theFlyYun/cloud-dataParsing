@@ -4,16 +4,17 @@ module.exports = {
     "5015939e65676d9e72959050fd31349e": ["soil.SoilMessage", "soil"],
   },
   productkey2object: {
+    "1b313f4449a637bbbe8ed40c643a691a":"soil.json",
     "74139f8ab541edb7a12a13eaeebaeada": "soil.json",
     "e5e62f0f99c35f66b61b49b442d931d9": "soil.json",
     "9c39233074709272faa46814eae7ebca": "soil.json",
-    "1b313f4449a637bbbe8ed40c643a691a": "weather.json",
+    // "1b313f4449a637bbbe8ed40c643a691a": "weather.json",
   },
   connect: {
     host: "http://8.142.81.91:1883",
-    username: "lyf20230303",
+    username: "lyf_dataparsing",
     uid: "U915f0c3e0729b39095ee139843e0a7c",
-    password: "20230303",
+    password: "2023414",
     options: {
       keepalive: 60,
       clientId: "mqttjs_" + Math.random().toString(16).substr(2, 8),
@@ -22,11 +23,16 @@ module.exports = {
       clean: true,
       reconnectPeriod: 1000,
       connectTimeout: 30 * 1000,
-      username: "U915f0c3e0729b39095ee139843e0a7c",
-      password: "20230303",
+      username: "lyf_dataparsing",
+      password: "2023414",
     },
   },
   "logger": {
     "level": "debug",
+  },
+  "msgQueue": {
+    "mq": "redis",
+    "cluster": false,
+    "options": [{ "host": "localhost", "port": "6379" }],
   },
 };
