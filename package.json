@@ -6,7 +6,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/device-shadow",
+    "start": "node ./bin/dataParsing",
     "test": "mocha test/lib; exit 0",
     "test-cov": "istanbul cover _mocha test/lib -- -R spec; exit 0",
     "lint": "files=$(git diff --cached --name-only --diff-filter=ACM | grep '\\.js$'); jshint $files && jscs $files",
