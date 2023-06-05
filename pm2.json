@@ -9,8 +9,8 @@
     "min_uptime": "30s",
     "max_restarts":15,
     "node_args": "--max-old-space-size=65500",
-    "out_file": "/tmp/cloud-device-shadow.log",
-    "error_file": "/tmp/cloud-device-shadow.log",
+    "out_file": "/tmp/cloud-dataParsing.log",
+    "error_file": "/tmp/cloud-dataParsing.log",
     "combine_logs": true,
     "env": {
       "CLOUD_HOME_DIR": process.env.PWD,
