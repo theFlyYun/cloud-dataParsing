@@ -1,7 +1,7 @@
 {
   "apps": [{
-    "name": "cloud-device-shadow",
-    "script": "./bin/device-shadow",
+    "name": "cloud-dataParsing",
+    "script": "./bin/dataParsing",
     "cwd": process.env.CLOUD_HOME_DIR,
     "exec_mode": "fork",
     "instances": 1,
