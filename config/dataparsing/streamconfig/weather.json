@@ -54,68 +54,84 @@
         "startByte":10,
         "startBit":0,
         "bitLength":16,
-        "divisor":100,
+        "divisor":10,
         "unit":"m/s"
     },
-    "windforce":{
+    "winddirection":{
         "startByte":12,
         "startBit":0,
         "bitLength":16,
-        "divisor":10,
-        "unit":"N?"
+        "divisor":1,
+        "unit":"°"
     },
-    "winddirection":{
+    "humidity":{
         "startByte":14,
         "startBit":0,
         "bitLength":16,
         "divisor":10,
-        "unit":"°"
+        "unit":"%RH"
     },
-    "humidity":{
+    "temperature":{
         "startByte":16,
         "startBit":0,
         "bitLength":16,
         "divisor":10,
-        "unit":"mg/kg"
-    },
-    "temperature":{
-        "startByte":18,
-        "startBit":0,
-        "bitLength":16,
-        "divisor":10,
-        "unit":"mg/kg"
+        "signsExist":true,
+        "unit":"°C"
     },
     "atmos":{
-        "startByte":20,
+        "startByte":18,
         "startBit":0,
         "bitLength":16,
         "divisor":10,
         "unit":"Kpa"
     },
-    "illuminance":{
-        "startByte":22,
-        "startBit":0,
-        "bitLength":8,
-        "divisor":10,
-        "unit":"Lux"
-    },
     "sensorType_2":{
-        "startByte":23,
+        "startByte":20,
         "startBit":0,
         "bitLength":8
     },
     "dataLength_2":{
-        "startByte":24,
+        "startByte":21,
         "startBit":2,
         "bitLength":6
     },
     "error_code2":{
+        "startByte":21,
+        "startBit":0,
+        "bitLength":2
+    },
+    "lightIntensity_high":{
+        "startByte":22,
+        "startBit":0,
+        "bitLength":16,
+        "divisor":1,
+        "unit":""
+    },
+    "lightIntensity_low":{
         "startByte":24,
+        "startBit":0,
+        "bitLength":16,
+        "divisor":1,
+        "unit":""
+    },
+    "sensorType_3":{
+        "startByte":26,
+        "startBit":0,
+        "bitLength":8
+    },
+    "dataLength_3":{
+        "startByte":27,
+        "startBit":2,
+        "bitLength":6
+    },
+    "error_code3":{
+        "startByte":27,
         "startBit":0,
         "bitLength":2
     },
     "rainfall":{
-        "startByte":25,
+        "startByte":28,
         "startBit":0,
         "bitLength":16,
         "divisor":10,
