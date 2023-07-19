@@ -14,13 +14,13 @@ module.exports = {
   database: {
     db: 'redis',
     cluster: false,
-    options: [{ 'host': 'localhost', 'port': '6379' }],
+    options: [{ 'host': '172.27.20.51', 'port': '6379' }],
   },
   "databases": [
     {
       'db': 'redis',
       'cluster': false,
-      'options': [{ 'host': 'localhost', 'port': '6379' }],
+      'options': [{ 'host': '172.27.20.51', 'port': '6379' }],
     },
     // {
     //   "db": "mysql",
@@ -35,7 +35,7 @@ module.exports = {
       'username': 'root',
       'password': 'root@aliyun',
       'database': 'cloud_http_server',
-      'host': 'localhost',
+      'host': '172.27.20.51',
       'dialect': 'mysql',
       'logging': false,
       'operatorsAliases': false,
@@ -58,7 +58,7 @@ module.exports = {
   },
   msgQueue: {
     producer: {
-      host: 'localhost:2181',
+      host: '172.27.20.51:2181',
       // clientId: `device-shadow-${cloudid}`,
       clientId: `data-parsing-${cloudid}`,
       options: {
@@ -73,7 +73,7 @@ module.exports = {
         `http-pub-${cloudid}`,
       ],
       options: {
-        host: 'localhost:2181',
+        host: '172.27.20.51:2181',
         // groupId: `device-shadow-${cloudid}`,
         groupId: `data-parsing-${cloudid}`,
         sessionTimeout: 15000,
@@ -85,7 +85,7 @@ module.exports = {
     }
   },
   serviceRegistry: {
-    connectionString: 'localhost:2181',
+    connectionString: '172.27.20.51:2181',
   },
 
   serviceRegistryKey: {
@@ -93,7 +93,7 @@ module.exports = {
     providerKey: `${shadowid}:localhost:-1`,
   },
   "mongodb": {
-    "host": "localhost",
+    "host": "172.27.20.51",
     "port": "27017",
     "db": "mqttLogger",
     "cluster": false,
