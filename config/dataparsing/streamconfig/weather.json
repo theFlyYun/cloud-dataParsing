@@ -101,17 +101,10 @@
         "startBit":0,
         "bitLength":2
     },
-    "lightIntensity_high":{
+    "lightIntensity":{
         "startByte":22,
         "startBit":0,
-        "bitLength":16,
-        "divisor":1,
-        "unit":""
-    },
-    "lightIntensity_low":{
-        "startByte":24,
-        "startBit":0,
-        "bitLength":16,
+        "bitLength":32,
         "divisor":1,
         "unit":""
     },
