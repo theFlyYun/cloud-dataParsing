@@ -4,12 +4,12 @@ module.exports = {
     "5015939e65676d9e72959050fd31349e": ["soil.SoilMessage", "soil"],
   },
   productkey2object: {
-    "1b313f4449a637bbbe8ed40c643a691a":"soil.json",//测试用
-    "74139f8ab541edb7a12a13eaeebaeada": "soil.json",//测试用
+    // "1b313f4449a637bbbe8ed40c643a691a":"soil.json",//测试用
+    // "74139f8ab541edb7a12a13eaeebaeada": "soil.json",//测试用
     "e5e62f0f99c35f66b61b49b442d931d9": "soil.json",
     "9c39233074709272faa46814eae7ebca": "soil.json",
     "d085cb65d9df829b76611b49a4a7fe06": "weather.json",
-    "87736609cdc730c562da44d24d4c3c25":"weather.json",//测试用
+    "4080737f5df5e439340dabcfbf7b80d4":"weather.json",//测试用
   },
   connect: {
     host: "http://8.142.81.91:1883",
