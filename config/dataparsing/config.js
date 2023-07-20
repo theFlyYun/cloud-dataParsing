@@ -1,7 +1,7 @@
 module.exports = {
   pb: {
-    "dc6ed37dca2e99ca79213e45bd1a1662": "payload.Message",
-    "5015939e65676d9e72959050fd31349e": ["soil.SoilMessage", "soil"],
+    // "dc6ed37dca2e99ca79213e45bd1a1662": "payload.Message",
+    // "5015939e65676d9e72959050fd31349e": ["soil.SoilMessage", "soil"],
   },
   productkey2object: {
     // "1b313f4449a637bbbe8ed40c643a691a":"soil.json",//测试用
